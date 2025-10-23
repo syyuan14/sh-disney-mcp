@@ -1,6 +1,6 @@
 {
   "name": "sh-disney-mcp",
-  "version": "0.1.0-beta",
+  "version": "0.1.1-beta",
   "type": "module",
   "bin": {
     "sh-disney-mcp": "dist/index.js"
@@ -26,9 +26,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/syyuan14/sh-disney-mcp.git"
   },
-  "author": "",
+  "author": "syyuan14",
   "license": "MIT",
   "description": "sh-disney-mcp",
   "dependencies": {

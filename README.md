@@ -79,7 +79,11 @@ pnpm run inspect
 }
 ```
 
-<video src="demo.mp4" controls width="600"></video>
+
+
+
+
+<video src="https://github.com/user-attachments/assets/2b83de7f-bd3e-4fc4-9854-ed053d14f427" controls width="600"></video>
 
 ## 工具函数说明
 

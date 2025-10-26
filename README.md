@@ -1,4 +1,4 @@
-<h1 align="center">上海迪士尼MCP服务器</h1>
+<h1 align="center">上海迪士尼MCP Server</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
@@ -9,9 +9,17 @@
   <img src="https://img.shields.io/badge/license-MIT-%237C3AED.svg?style=for-the-badge">
 </p>
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/sh-disney-mcp" target="_blank">
+    <img src="https://img.shields.io/npm/v/sh-disney-mcp.svg?style=flat&logo=npm" alt="npm version">
+  </a>
+</p>
+
 ## 项目介绍
 
-sh-disney-mcp 是一个基于 Model Context Protocol (MCP) 的服务器，专注于提供上海迪士尼乐园门票相关信息的查询服务。该项目旨在通过标准化的接口，帮助大模型快速获取上海迪士尼乐园的门票价格和售卖状态信息。
+sh-disney-mcp 是一个基于 Model Context Protocol (MCP) 的mcp server，旨在通过标准化的接口，帮助大模型快速获取上海迪士尼乐园的门票价格和售卖状态信息。
+
+**NPM 包地址**：[sh-disney-mcp](https://www.npmjs.com/package/sh-disney-mcp)
 
 ## 功能特性
 
@@ -50,13 +58,13 @@ pnpm install
 pnpm run build
 ```
 
-## 使用说明
-
-### 调试
+4. 本地调试
 
 ```bash
 pnpm run inspect
 ```
+
+## 使用说明
 
 ## 集成MCP host
 
@@ -86,6 +94,7 @@ pnpm run inspect
 **功能**：获取一日门票的不同类型门票的价格信息。
 
 **参数**：
+
 - `date`: string - 要查询的日期，格式为"yyyy-MM-dd"，例如"2023-12-25"
 
 **返回值**：包含不同类型门票价格的文本信息
@@ -103,6 +112,7 @@ pnpm run inspect
 **功能**：获取两日门票的不同类型门票的价格信息。
 
 **参数**：
+
 - `date`: string - 要查询的日期，格式为"yyyy-MM-dd"，例如"2023-12-25"
 
 **返回值**：包含不同类型门票价格的文本信息

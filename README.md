@@ -79,6 +79,8 @@ pnpm run inspect
 }
 ```
 
+<video src="demo.mp4" controls width="600"></video>
+
 ## 工具函数说明
 
 ### getOneDayTicketSaleInfo

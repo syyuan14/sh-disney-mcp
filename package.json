@@ -1,12 +1,12 @@
 {
   "name": "sh-disney-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "bin": {
     "sh-disney-mcp": "dist/index.js"
   },
   "scripts": {
-    "build": "tsc && shx chmod +x dist/index.js",
+    "build": "rm -rf dist && tsc && shx chmod +x dist/index.js",
     "inspect": "npx @modelcontextprotocol/inspector dist/index.js",
     "watch": "tsc --watch",
     "start": "node ./dist/index.js",
@@ -37,7 +37,9 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.1",
     "axios": "^1.12.2",
+    "commander": "^14.0.2",
     "express": "^5.1.0",
+    "mcp-http-server": "^1.2.4",
     "zod": "^3.24.2"
   },
   "devDependencies": {

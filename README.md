@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/syyuan14-sh-disney-mcp-badge.png)](https://mseep.ai/app/syyuan14-sh-disney-mcp)
+
 <h1 align="center">上海迪士尼MCP Server</h1>
 
 <p align="center">
